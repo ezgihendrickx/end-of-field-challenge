@@ -32,8 +32,9 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
+  background-color:#E5E5E5;
 }
-
+/*
 #mockup {
   width: 375px;
   height: 568px;
@@ -47,16 +48,16 @@ body {
   z-index: 10;
   pointer-events: none;
 }
-
+*/
 
 .widget {
 
-  width: calc(375px - 8px - 8px);
-  height: calc(568px - 8px - 8px);
+  width: calc(375px);
+  height: calc(568px);
   margin: 8px;
   background-color:white;
   padding: 0px;
-  border-radius: 5px;
+  border-radius: 15px;
   color:black;
 } 
 
@@ -89,6 +90,7 @@ body {
   color: white; 
   margin-top: -20px; 
   word-spacing: 1px;
+  border: none;
 }
 
 table {

@@ -14,4 +14,4 @@ Powered by Ezgi
 ## Links &#x265B;
 Find the direct links to each interface here:
 - Interface09: https://ezginterface09.netlify.app/
-- Interface03: 
+- Interface03: https://ezgihendrickx.github.io/end-of-field-challenge/index2

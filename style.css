@@ -15,6 +15,7 @@ body {
   width: 100%;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  background-color: black;
 }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
@@ -107,4 +108,5 @@ body {
   width: 154px;
   color: white;
   padding-left: 0px;
+  border-style: solid;
 }

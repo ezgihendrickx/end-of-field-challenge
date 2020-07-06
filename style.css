@@ -1,0 +1,65 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  /* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+#mockup {
+  width: 414px;
+  height: 337px;
+  background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-yu-3-21/master/1.The-Field/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/simple/interface.09.png?token=APU73LXZJTIWIXRLUFWD37K7BQFSC);
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  opacity: 0.5;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.widget {
+  /* width: calc(332px - 45px - 45px - 6px - 6px); */
+  width: calc(414px - 6px - 6px);
+  height: calc(337px - 6px - 6px);
+  margin: 6px;
+  background-color: #3B2795;
+  padding: 45px;
+  color: white;
+}
+
+.widget h1 {
+  margin: 0;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.widget header {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}

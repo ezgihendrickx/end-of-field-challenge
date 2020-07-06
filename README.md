@@ -9,11 +9,9 @@ Add the relevant HTML and CSS code so that the end result looks as similar as po
 
 This is the repository for the exercise: https://github.com/becodeorg/gnt-yu-3-21/tree/master/1.The-Field/5.End-of-Field/2.End-of-Field-Challenge
 
-## Autor and Rights
+## Autor
 Powered by Ezgi
-## Links 
+## Links &#x265B;
 Find the direct links to each interface here:
-- Interface#09 [<< View the product >>] [Address1]
-[Address1]: https://ezgihendrickx.github.io/end-of-field-challenge/
-- Interface#03 [<< View the product >>] [Address2]
-[Address2]: put the link here
+- Interface09: https://ezginterface09.netlify.app/
+- Interface03: 

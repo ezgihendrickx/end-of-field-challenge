@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#mockup {
+  width: 375px;
+  height: 568px;
+  background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-yu-3-21/master/1.The-Field/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/complex/complex.03.png?token=APU73LX4KB6V2BSROBIC5BC7BQ2UA);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  opacity: 0.5;
+  z-index: 10;
+  pointer-events: none;
+}
+
+
+.widget {
+  /* width: calc(332px - 45px - 45px - 6px - 6px); */
+  width: calc(375px - 8px - 8px);
+  height: calc(568px - 8px - 8px);
+  margin: 8px;
+  background-color:white;
+  padding: 0px;
+  border-radius: 5px;
+  color:black;
+} 
+
+
+.widget h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: normal;
+  padding-top: 6px;
+  margin-left: 5px;
+  padding-left: 150px;
+}
+.intro{
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 13px;
+  margin-left: 45px;
+  text-align: center;
+}
+
+.widget button {
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 46px;
+  background-color: #F77D48;
+  border-radius: 8px;
+  height: 48px;
+  width: 288px;
+  color: white; 
+  margin-top: -20px; 
+}
+
+table {
+    border-collapse: collapse;
+    font-size: small;
+    text-align: center;
+
+}
+
+td, th {
+	border-bottom: 1px solid black;
+    text-align: center;
+}
+.first {
+    color: #21B49B;
+    font-size: 35px;
+    padding-left: 115px;
+    padding-bottom: 28px;
+    margin-top: 1px;
+   
+
+}
+.second {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-bottom: 28px;
+    font-weight: bold;   
+    
+}
+.vl {
+    border-left: 1px solid black;
+    height: 44px;
+    padding-left: 9px;
+    margin-top: 14px;
+  
+  }
+  ul {
+    list-style-type: none;
+  }

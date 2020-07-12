@@ -18,23 +18,7 @@ body {
   background-color: black;
 }
 
-/* apply a natural box layout model to all elements, but allowing components to change */
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-}
-/* to work Pixel perfect
+/*to work Pixel perfect
 #mockup {
   width: 414px;
   height: 337px;
@@ -44,10 +28,10 @@ body {
   top: 0;
   left: 0;
 
-  opacity: 0;
+  opacity: 0.5;
   z-index: 10;
   pointer-events: none;
-}*/
+} */
 
 .widget {
   /* width: calc(332px - 45px - 45px - 6px - 6px); */
@@ -60,20 +44,13 @@ body {
   color: white;
 }
 
-.widget h1 {
+.widget h2 {
   margin: 0;
-  font-size: 23px;
+  font-size: 21px;
   font-weight: bold;
   margin-left: 5px;
 }
 
-.widget h2 {
-  margin: 0;
-  font-size: 20px;
-  font-weight: normal;
-  padding-top: 8px;
-  margin-left: 5px;
-}
 .number {
   margin: 0;
   font-size: 50px;
@@ -82,31 +59,32 @@ body {
   margin-left: 5px;
 }
 .small {
-    margin: 0;
-    font-size: x-large;
-    font-weight: bold;
-    padding-top: 8px;
-    margin-left: 8px;
+  margin: 0;
+  font-size: x-large;
+  font-weight: bold;
+  padding-top: 8px;
+  margin-left: 8px;
 }
-.widget main {
+.content {
   margin: 0;
   font-size: 15px;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 15px;
   margin-left: 3px;
 }
 .widget button {
-  margin-top: 28px;
-  font-size: 18px;
+  margin-top: 26px;
+  font-size: 16px;
   font-weight: normal;
-  margin-left: 3px;
-  word-spacing: 10px;
+  margin-left: 4px;
   border-radius: 5px;
-  border-color: #5F4CAB;
+  border-color: #5f4cab;
   background-color: #3b2795;
   height: 48px;
   width: 154px;
   color: white;
-  padding-left: 0px;
+  padding-left: 9px;
+  padding-top: 3px;
   border-style: solid;
+  font-family: monospace;
 }

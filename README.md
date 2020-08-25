@@ -1,5 +1,5 @@
 # end-of-field-challenge
-## "Use HTML, CSS, Markdown"
+## "Languages: HTML, CSS, Markdown"
 ***
 ## The challenge
 In this exercise you will build two full integrations.
@@ -16,7 +16,7 @@ This is the repository for the exercise: https://github.com/becodeorg/gnt-yu-3-2
 + Codepen
 + Google Measure-it
 ## Author
-Powered by Ezgi
+:star: Powered by Ezgi
 ***
 ## Links &#x265B;
 Find the direct links to each interface here:
